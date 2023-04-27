@@ -1,0 +1,13 @@
+.test div{
+    border: 1px solid black;
+}
+
+.progress-bar{
+    animation: prog 5s alternate-reverse infinite;
+}
+
+@keyframes prog {
+    0% { width: 10%; }
+    50% { width: 75%; }
+    100% { width: 100%; }
+}
